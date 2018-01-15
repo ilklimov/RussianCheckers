@@ -1,0 +1,32 @@
+.root{
+    -fx-background-image: url("textures/background.jpg");
+    -fx-alignment: center;
+}
+
+#left,#right{
+    -fx-background-color: #ffffff;
+    -fx-padding: 15px;
+}
+
+#right-top,#right-bottom,#for-right-bottom{
+    -fx-background-color: #e8bc90;
+    -fx-padding: 20px;
+    -fx-font-size: 55px;
+    -fx-font-family: "Helvetica";
+}
+
+#for-right-bottom{
+    -fx-padding: 0px;
+}
+
+#score-black,score-white{
+    -fx-font-size: 45px;
+    -fx-font-family: "Helvetica";
+    -fx-padding: 15px;
+}
+
+#left-text{
+    -fx-padding: 2px;
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+}
